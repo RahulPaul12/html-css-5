@@ -1,0 +1,90 @@
+body{
+    font-family: 'Roboto', serif;
+    font-size: 1rem;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    top: 0;
+}
+.navigation a{
+    font-size: larger;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: 700;
+}
+.navigation a:hover{
+    padding-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+.article{
+    background: url(/assets/hero.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 250px 0 200px 0;
+
+}
+.article .text{
+    text-align: center;
+    width: 800px;
+    margin: 150px auto 0 auto;
+    font-family: 'David Libre', serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #48353a;
+}
+.flowers{
+    display: flex;
+}
+
+
+.flowers img{
+    width: 35%;
+}
+
+.quota{
+    display: flex;
+    
+}
+.quota1{
+    background-color: antiquewhite;
+    width: 50%;
+    
+}
+
+.quota1 img,.quota2 img{
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.quota1 blockquote,.quota2 blockquote{
+    width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.quota2{
+    background-color: rgb(185, 243, 245);
+    width: 50%;
+}
+
+.chair img{
+  width: 1503px;
+  height: 500px;
+  margin-bottom: -5px;
+}
+footer{
+    padding: 10px;
+    background-color: rgb(247, 83, 83);
+    padding-left: 23%;
+    padding-right: 23%;
+}
+footer img{
+
+    margin-right: 15px;
+    
+}
